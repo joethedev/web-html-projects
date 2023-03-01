@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css variables</title>
+  </head>
+  <body>
+    <h1>Update css variables with <span>JavaScript</span></h1>
+    <div class="container">
+      <div>
+        <p>Spacing:</p>
+        <input class="spac" id="spac" type="range" min="1" max="100" value="50" />
+      </div>
+      <div>
+        <p>Blur:</p>
+        <input id="blurr" type="range" min="1" max="100" value="50" />
+      </div>
+      <div>
+        <p>Base color:</p>
+        <input
+          id="baseColor"
+          type="color"
+          id="favcolor"
+          name="favcolor"
+          value="#ff0000"
+        />
+      </div>
+    </div>
+    <div class="imgContainer">
+      <img id="imageId" src="assets/images/image.webp" alt="" />
+    </div>
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>

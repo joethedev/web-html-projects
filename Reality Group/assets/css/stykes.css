@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header img {
+  width: 110px;
+}
+
+nav {
+  text-align: center;
+  border-bottom: 3px solid #2cbcd6;
+}
+
+nav li {
+  display: inline-block;
+  margin: auto 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2cbcd6;
+  font-weight: bold;
+}
+
+.product-submenu {
+  background-color: #2cbcd6;
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 0;
+  right:0;
+  display: none;
+}
+
+.product-submenu div {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+}
+
+.product-submenu ul {
+  list-style: none;
+}
+
+.product-submenu li {
+  display: block;
+}
+
+.product-menu:hover .product-submenu {
+  display: block;
+}
+
+.product-menu:hover {
+  background-color: #2cbcd6;
+  color: white;
+}

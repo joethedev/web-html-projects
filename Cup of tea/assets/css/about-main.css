@@ -1,0 +1,60 @@
+main {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+main h1 {
+  font-size: 30px;
+  color: rgb(64, 64, 64);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main h2 {
+  color: #879e0f;
+  margin-bottom: 20px;
+}
+
+
+main h2:after {
+  background-color: #879e0f;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.section_tilte:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+article img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.concept_container {
+  background-color: #eaefcf;
+  text-align: center;
+  padding: 30px;
+}
+
+@media screen and (min-width: 1025px) {
+  .concept_container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .concept_container article {
+    max-width: 240px;
+  }
+
+  
+}

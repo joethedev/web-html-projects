@@ -1,0 +1,40 @@
+:root{
+  --text-deco: none;
+  }
+
+.tasks {
+  margin-top: 20px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.tasks input {
+  width: 50px;
+}
+
+.delete {
+  background-color: yellow;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.save {
+  background-color: green;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+}
+
+
+.tasks button:hover {
+  background-color: rgb(102, 102, 7);
+}
+
+.entryText {
+  text-decoration: var(--text-deco);
+}

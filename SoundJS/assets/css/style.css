@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.main_container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.main_container div {
+  background-color: gray;
+  margin-left: 7px;
+  text-align: center;
+  opacity: 0.6;
+  border: 3px solid black;
+  height: 70px;
+  width: 70px;
+}
+
+.main_container div h1 {
+  color: white;
+}
+
+.main_container div p {
+  color: orange;
+}

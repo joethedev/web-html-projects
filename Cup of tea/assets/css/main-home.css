@@ -1,0 +1,114 @@
+
+/* -------- Main styling ---------- */
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  margin-bottom: 20px;
+}
+
+.desktop_only_section {
+  display: none;
+}
+
+.tea_types {
+  background-color: white;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.tea_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.tea_container div {
+  text-align: center;
+}
+
+.section_tilte {
+  color: #879e0f;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow: hidden;
+}
+
+.section_tilte:after, .section_tilte::before {
+  background-color: #879e0f;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.section_tilte:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.section_tilte:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.products {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products div {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.products button {
+  background-color: #b09067;
+  border: none;
+  padding: 10px 12px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+
+/* -------- Desktop styling ---------- */
+/* -------- Main styling ---------- */
+
+@media screen and (min-width: 1025px) {
+  .desktop_only_section {
+    display: block;
+  }
+
+  .desktop_only_section img {
+    max-width: 100%;
+  }
+
+  .products {
+    flex-wrap: nowrap;
+  }
+
+  main {
+    margin-top: 30px;
+  }
+
+  main .section_tilte {
+    margin-bottom: 20px;
+  }
+
+  main p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+}
